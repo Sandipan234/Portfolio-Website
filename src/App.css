@@ -1,0 +1,330 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+/* <----------------------------------------- Main Banner Style --------------------------------->  */ 
+.contain{
+  display: block;
+  margin: 0;
+}
+ .banner {
+  height: 100vh;
+  width: 100%;
+ }
+
+ .bannertext{
+  position: absolute;
+  top: 45%;
+  left:8%;
+  max-width: 80%;
+  color: aliceblue;
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-weight: bolder;
+  text-shadow:-4px 7px 15px rgba(35, 214, 190, 0.741);
+  font-size: 3em;
+ }
+
+ .bannertext2{
+  position: absolute;
+  top: 65%;
+  left:10%;
+  max-width: 40%;
+  color: aliceblue;
+  display: block;
+  font-family: Nunito, sans-serif;
+ }
+ .box{
+  font-family: Nunito, sans-serif;
+  position: absolute;
+  max-width: 80%;
+  top: 35%;
+  left:8%;
+  color: aliceblue;
+  border: 1px solid rgba(4, 111, 113, 0.554);
+  padding: 10px;
+  /* border-radius: 25%; */
+  background-color: rgba(24, 52, 74, 0.276);
+  font-size: 1.5em;
+  box-shadow: 5px 15px 15px rgb(3, 39, 47);
+  
+ }
+
+
+/* <----------------------------------------- Main Banner Style --------------------------------->  */ 
+
+
+
+
+
+
+
+
+
+/* <----------------------------------------- About Me Section Style --------------------------------->  */ 
+
+
+
+.aboutme{
+  
+  height: 100vh;
+  color: aliceblue;
+  background-color: black;
+}
+
+#AboutmeBox{
+  margin-left: 12%;
+  border-left: 5px solid rgba(0, 145, 255, 0.868);
+  padding-left: 0.5em;
+  /* font-size: 1.8em; */
+  height: 3.5em;
+  
+}
+ 
+#AboutmeBox h2{
+  font-family: 'Prosto One', cursive;
+  /* margin-top: 0.5em; */
+  
+}
+
+
+#Aboutme_Text-box{
+  
+  margin-top: 2.1em;
+  font-size: 1.5rem;
+  margin-left: 11%;
+  max-width: 50%;
+  font-family: 'Prosto One', cursive;
+  border-right:3px solid rgba(0, 255, 255, 0.731);
+}
+ .contact_details-section{
+  display: flex;
+  align-items: center;
+  max-width: 40%;
+  margin-left: 11%;
+  margin-top: 8em;
+ }
+
+
+.contact_details{
+  flex: 1;
+  margin: 10px;
+  
+  left:11%;
+  
+  /* border: 1px solid white; */
+  background-color: rgba(128, 128, 128, 0.162);
+  padding: 0.5em;
+  border-radius: 5%;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2em;
+  font-family: 'Prosto One', cursive;
+  max-width: 150%;
+}
+
+
+
+/* <----------------------------------------- About Me Section Style --------------------------------->  */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* <----------------------------------------- Skill Section Style --------------------------------->  */ 
+ #skills{
+  width: 80%;
+  margin-left: 3em;
+  height: 30rem;
+ }
+ .slider {
+  display: block;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../src/images/bgskl.jpeg); */
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.skillsbgi{
+
+  height: 100vh;
+  width: 100%;
+}
+
+.image {
+  position: absolute;
+  /* margin-top: 5%; */
+  top:-12%;
+  left: 0%;
+  width: 90%;
+  height: 18em;
+  margin-left: 5%;
+  border-radius: 10px;
+  box-shadow: 0 12px 18px rgba(13, 200, 203, 0.291);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgba(162, 226, 223, 0.471);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: rgba(162, 226, 223, 0.471);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 2s ease;
+  transition: ease 1s;
+}
+
+.slide.active {
+  position: absolute;
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+  width: 80vh;
+  top: 45%;
+  max-width: 80%;
+
+}
+
+.skillhead{
+  position: absolute;
+  color: rgba(241, 240, 233, 0.69);
+  top:20%;
+  left: 8%;
+  font-family: Raleway, sans-serif;
+  font-size: 3em;
+  text-shadow:0px 5px 10px rgba(13, 200, 203, 0.871);
+  /* padding: 10px; */
+  max-width: 100%;
+}
+.Skillname{
+  /* position: absolute; */
+  
+  margin-top:50%;
+  color: aliceblue;
+  margin-left: 42%;
+  max-width: 100%;
+}
+#JavaScript{
+
+  margin-top:50%;
+  color: aliceblue;
+  margin-left: 35%;
+}
+
+/* <----------------------------------------- Skill Section Style --------------------------------->  */ 
+
+
+/* <----------------------------------------- Projects Section Style --------------------------------->  */
+
+
+
+
+.projects{
+  height: 100vh;
+  /* background-color: black; */
+  color: white;
+  background-image: url('../src/images/rohit-choudhari-tk2_RBZq7RA-unsplash.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: cover;
+}
+.projects h1{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family:'Prosto One', cursive; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <----------------------------------------- Projects Section Style --------------------------------->  */
